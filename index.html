@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Consult</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top__inner">
+          <a class="logo" href="#">
+            <img class="logo__img" src="images/icons/logo.svg" alt="logo">
+          </a>
+          <nav class="menu">
+            <button class="menu__btn">
+              <span></span>
+            </button>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__item-link menu__item-link--active" href="#">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">О компании</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">Услуги и цены</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">Новости</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-top__social">
+            <div class="header-top__social-item">
+              <a href="#" class="header-top__social-link">
+                <img class="header-top__social-img" src="images/icons/telegramm.svg" alt="telegramm icon">
+              </a>
+            </div>
+            <div class="header-top__social-item">
+              <a href="#" class="header-top__social-link">
+                <img class="header-top__social-img" src="images/icons/viber.svg" alt="viber icon">
+              </a>
+            </div>
+            <div class="header-top__social-item">
+              <a href="#" class="header-top__social-link">
+                <img class="header-top__social-img" src="images/icons/union.svg" alt="phone icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-content">
+      <div class="header-content__inner">
+        <div class="header-content__title">
+          Бухгалтерские
+          <div class="header-content__title-and">&</div>
+          <div class="header-content__title-bottom">консультационные услуги</div>
+        </div>
+        <button class="header-content__btn">Заказать звонок</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="services">
+      <div class="container container--arrow-left">
+        <h5 class="title">наши услуги</h5>
+        <div class="services__items">
+          <a class="services__item" href="#">
+            <div class="services__item-top">
+              <img src="images/icons/services-1.svg" alt="icon">
+            </div>
+            <div class="services__item-title">Организация бухучёта</div>
+            <p class="services__item-text">
+              Наладим учет, документооборот «с нуля» или в уже действующей компании
+            </p>
+          </a>
+          <a class="services__item" href="#">
+            <div class="services__item-top">
+              <img src="images/icons/services-2.svg" alt="icon">
+            </div>
+            <div class="services__item-title">Ведение бухгалтерии</div>
+            <p class="services__item-text">
+              Возьмем на себя все функции бухгалтера на предприятии
+            </p>
+          </a>
+          <a class="services__item" href="#">
+            <div class="services__item-top">
+              <img src="images/icons/services-3.svg" alt="icon">
+            </div>
+            <div class="services__item-title">Зарплата и кадры</div>
+            <p class="services__item-text">
+              Рассчитаем заработную плату в вашей компании
+            </p>
+          </a>
+          <a class="services__item" href="#">
+            <div class="services__item-top">
+              <img src="images/icons/services-4.svg" alt="icon">
+            </div>
+            <div class="services__item-title">Консультации по бухглатерии</div>
+            <p class="services__item-text">
+              Ответим на вопросы бухучета и налогового законодательства
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantage">
+      <div class="container container--arrow-right">
+        <h5 class="title">наши ПРЕИМУЩЕСТВА</h5>
+        <div class="advantage__items">
+          <div class="advantage__item-top">
+            <div class="advantage__item">
+              <span class="advantage__num">011</span>
+              лет опыта работы в сфере бухгалтерских услуг и консультаций
+            </div>
+            <div class="advantage__item">
+              <span class="advantage__num">040</span>
+              сотрудников готовых ответить вам на любые вопросы
+            </div>
+            <div class="advantage__item">
+              <span class="advantage__num">400</span>
+              клиентов доверили нам ведение своей бухгалтерии
+            </div>
+          </div>
+          <div class="advantage__item-box">
+            <div class="advantage__item">
+              <span class="advantage__num">008</span>
+              лет гарантии от штрафных санкций
+            </div>
+            <div class="advantage__item">
+              <span class="advantage__num">50 000</span>
+              BYN сумма страхового полиса
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="price">
+      <div class="container container--arrow-left">
+        <h5 class="title">Тарифы и цены</h5>
+        <div class="price__inner">
+          <div class="price__items" id="price__items">
+            <div class="price__item">
+              <a class="price__item-link" href="#">
+                <div class="price__item__inner">
+                  <img class="price__item-img" src="images/icons/price/1.svg" alt="icon">
+                  <div class="price__item-title">«Антикризис»</div>
+                  <p class="price__item-text">
+                    любое количество документов
+                  </p>
+                  <p class="price__item-text">
+                    любое количество сотрудников
+                  </p>
+                </div>
+                <div class="price__sum">
+                  <span class="price__sum-val">byn</span>
+                  <span class="price__sum-num">50</span>
+                  <span class="price__sum-text">/в месяц</span>
+                </div>
+              </a>
+            </div>
+            <div class="price__item">
+              <a class="price__item-link" href="#">
+                <div class="price__item-taxes">
+                  <div class="price__item-tax"> <span>НДС</span></div>
+                  <div class="price__item-tax"> <span>ЕНВД</span></div>
+                </div>
+                <div class="price__item__inner">
+                  <img class="price__item-img" src="images/icons/price/2.svg" alt="icon">
+                  <div class="price__item-title">«Старт»</div>
+                  <p class="price__item-text">
+                    <span>20</span> и <span>менее</span> документов
+                  </p>
+                  <p class="price__item-text">
+                    <span>5</span> и <span>менее</span> сотрудников
+                  </p>
+                </div>
+                <div class="price__sum">
+                  <span class="price__sum-val">byn</span>
+                  <span class="price__sum-num">100</span>
+                  <span class="price__sum-text">/в месяц</span>
+                </div>
+              </a>
+            </div>
+            <div class="price__item">
+              <a class="price__item-link" href="#">
+                <div class="price__item-taxes">
+                  <div class="price__item-tax"> <span>НДС</span></div>
+                  <div class="price__item-tax"> <span>ЕНВД</span></div>
+                </div>
+                <div class="price__item__inner">
+                  <img class="price__item-img" src="images/icons/price/3.svg" alt="icon">
+                  <div class="price__item-title">«Комфорт»</div>
+                  <p class="price__item-text">
+                    <span>100</span> и <span>менее</span> документов
+                  </p>
+                  <p class="price__item-text">
+                    <span>10</span> и <span>менее</span> сотрудников
+                  </p>
+                </div>
+                <div class="price__sum">
+                  <span class="price__sum-val">byn</span>
+                  <span class="price__sum-num">250</span>
+                  <span class="price__sum-text">/в месяц</span>
+                </div>
+              </a>
+            </div>
+            <div class="price__item">
+              <a class="price__item-link" href="#">
+                <div class="price__item-taxes">
+                  <div class="price__item-tax"> <span>НДС</span></div>
+                  <div class="price__item-tax"> <span>ЕНВД</span></div>
+                </div>
+                <div class="price__item__inner">
+                  <img class="price__item-img" src="images/icons/price/4.svg" alt="icon">
+                  <div class="price__item-title">«Бизнес»</div>
+                  <p class="price__item-text">
+                    <span>200</span> и <span>менее</span> документов
+                  </p>
+                  <p class="price__item-text">
+                    <span>20</span> и <span>менее</span> сотрудников
+                  </p>
+                </div>
+                <div class="price__sum">
+                  <span class="price__sum-val">byn</span>
+                  <span class="price__sum-num">450</span>
+                  <span class="price__sum-text">/в месяц</span>
+                </div>
+              </a>
+            </div>
+            <div class="price__item">
+              <a class="price__item-link" href="#">
+                <div class="price__item-taxes">
+                  <div class="price__item-tax"> <span>НДС</span></div>
+                  <div class="price__item-tax"> <span>ЕНВД</span></div>
+                </div>
+                <div class="price__item__inner">
+                  <img class="price__item-img" src="images/icons/price/5.svg" alt="icon">
+                  <div class="price__item-title">«Премиум»</div>
+                  <p class="price__item-text">
+                    <span>200</span> и <span>более</span> документов
+                  </p>
+                  <p class="price__item-text">
+                    <span>20</span> и <span>более</span> отрудников
+                  </p>
+                </div>
+                <div class="price__sum">
+                  <span class="price__sum-val">byn</span>
+                  <span class="price__sum-num">600</span>
+                  <span class="price__sum-text">/в месяц</span>
+                </div>
+              </a>
+            </div>
+            <div class="price__item">
+              <a class="price__item-link" href="#">
+                <div class="price__item-taxes">
+                  <div class="price__item-tax"> <span>НДС</span></div>
+                  <div class="price__item-tax"> <span>ЕНВД</span></div>
+                </div>
+                <div class="price__item__inner">
+                  <img class="price__item-img" src="images/icons/price/6.svg" alt="icon">
+                  <div class="price__item-title">«Зарплата»</div>
+                  <p class="price__item-text">
+                    любое количество документов
+                  </p>
+                  <p class="price__item-text">
+                    любое количество сотрудников
+                  </p>
+                </div>
+                <div class="price__sum">
+                  <span class="price__sum-val">byn</span>
+                  <span class="price__sum-num">1000</span>
+                  <span class="price__sum-text">/в месяц</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="price__link-box">
+          <a class="price__link" href="#">Подробнее</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="container container--arrow-right">
+        <h5 class="title">наши Партнеры</h5>
+        <div class="partners__inner">
+          <div class="partners__item">
+            <img class="partners__item-img" src="images/icons/partners/1.png" alt="partners">
+          </div>
+          <div class="partners__item">
+            <img class="partners__item-img" src="images/icons/partners/2.png" alt="partners">
+          </div>
+          <div class="partners__item">
+            <img class="partners__item-img" src="images/icons/partners/3.png" alt="partners">
+          </div>
+          <div class="partners__item">
+            <img class="partners__item-img" src="images/icons/partners/4.png" alt="partners">
+          </div>
+          <div class="partners__item">
+            <img class="partners__item-img" src="images/icons/partners/5.png" alt="partners">
+          </div>
+          <div class="partners__item">
+            <img class="partners__item-img" src="images/icons/partners/6.png" alt="partners">
+          </div>
+          <div class="partners__item">
+            <img class="partners__item-img" src="images/icons/partners/7.png" alt="partners">
+          </div>
+          <div class="partners__item">
+            <img class="partners__item-img" src="images/icons/partners/8.png" alt="partners">
+          </div>
+          <div class="partners__item">
+            <a class="partners__item-link" href="#">20+</a>
+          </div>
+          <div class="partners__item">
+            <img class="partners__item-img" src="images/icons/partners/9.png" alt="partners">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review">
+      <h5 class="title">ОТЗЫВЫ</h5>
+      <div class="slider">
+        <div class="slider-item">
+          <div class="slider-item__img-box">
+            <img class="slider-item__img" src="images/review/1.jpg" alt="icon">
+            <div class="slider-item__icons">
+              <a class="slider-item__link" href="#">
+                <img class="slider-item__icon" src="images/icons/facebook.svg" alt="icon">
+              </a>
+              <a class="slider-item__link" href="#">
+                <img class="slide-itemr__icon" src="images/icons/earth.svg" alt="icon">
+              </a>
+            </div>
+          </div>
+          <a class="slider-item__content" href="#">
+            <div class="slider-item__text-box">
+              <p class="slider-item__text">
+                Я рад, что некоторое время назад принял решение отдать бухгалтерию на аутсорсинг именно компании
+                «Консультант+». Попытки
+                использовать облачные решения совсем не то, что полноценный бухгалтер, которого я обрел после начала
+                сотрудничества с
+                этой компанией»
+              </p>
+            </div>
+            <div class="slider-item__title">
+              <div class="slider-item__title-name">Сергей Васильев</div>
+              ООО «МАСТРЕЙД»
+            </div>
+          </a>
+        </div>
+        <div class="slider-item">
+          <div class="slider-item__img-box">
+            <img class="slider-item__img" src="images/review/2.jpg" alt="icon">
+            <div class="slider-item__icons">
+              <a class="slider-item__link" href="#">
+                <img class="slider-item__icon" src="images/icons/facebook.svg" alt="icon">
+              </a>
+              <a class="slider-item__link" href="#">
+                <img class="slide-itemr__icon" src="images/icons/earth.svg" alt="icon">
+              </a>
+            </div>
+          </div>
+          <a class="slider-item__content" href="#">
+            <div class="slider-item__text-box">
+              <p class="slider-item__text">
+                Выражаю признательность «Консультант+» за высокий уровень оказания бухгалтерских услуг, поддержку
+                нашего
+                бизнеса и
+                отзывчивость. Компания зарекомендовала себя как надежного и ответственного партнера — работа
+                выполняется
+                качественно и
+                точно в срок.
+              </p>
+            </div>
+            <div class="slider-item__title">
+              <div class="slider-item__title-name">Вита Иванова</div>
+              ОДО «ВИТАЛЮКС»
+            </div>
+          </a>
+        </div>
+        <div class="slider-item">
+          <div class="slider-item__img-box">
+            <img class="slider-item__img" src="images/review/1.jpg" alt="icon">
+            <div class="slider-item__icons">
+              <a class="slider-item__link" href="#">
+                <img class="slider-item__icon" src="images/icons/facebook.svg" alt="icon">
+              </a>
+              <a class="slider-item__link" href="#">
+                <img class="slide-itemr__icon" src="images/icons/earth.svg" alt="icon">
+              </a>
+            </div>
+          </div>
+          <div class="slider-item__content">
+            <div class="slider-item__text-box">
+              <a class="slider-item__text" href="#">
+                Я рад, что некоторое время назад принял решение отдать бухгалтерию на аутсорсинг именно компании
+                «Консультант+». Попытки
+                использовать облачные решения совсем не то, что полноценный бухгалтер, которого я обрел после начала
+                сотрудничества с
+                этой компанией»
+              </a>
+            </div>
+            <div class="slider-item__title">
+              <div class="slider-item__title-name">Сергей Васильев</div>
+              ООО «МАСТРЕЙД»
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__items">
+          <ul class="footer__list">
+            <li class="footer__title">Контакты</li>
+            <li class="footer__item">г. Минск, ул. Байкальская, дом 9</li>
+            <li class="footer__item footer__item--tel">
+              <a class="footer__link" href="tel:+37529150592">+375 (29) 15-05-92</a>
+            </li>
+            <li class="footer__item footer__item--mail">
+              <a class="footer__link" href="mailto:konsult_buh@gmail.com">konsult_buh@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__social">
+          <a class="logo" href="#">
+            <img class="logo__img" src="images/icons/logo.svg" alt="logo">
+          </a>
+          <div class="footer__social-box">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="images/icons/telegramm.svg" alt="icon">
+            </a>
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="images/icons/viber.svg" alt="icon">
+            </a>
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="images/icons/facebook.svg" alt="icon">
+            </a>
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="images/icons/instagramm.svg" alt="icon">
+            </a>
+          </div>
+        </div>
+        <div class="footer__items">
+          <div class="footer__title footer__title--time">Время работы</div>
+          <div class="footer__text">
+            <span>Будни:</span>
+            <span>09:00–18:00</span>
+          </div>
+          <div class="footer__text">
+            <span>Выходные:</span>
+            <span>09:00–16:00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
+</a>
